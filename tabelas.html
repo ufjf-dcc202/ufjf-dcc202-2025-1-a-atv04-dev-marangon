@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DCC 202 Semana 06 - Tabelas</title>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Listas</a>
+    </nav>
+    <h1>Aplicando Tabelas</h1>
+    <section>
+        <h2>Exemplo de tabela:</h2>
+        <table>
+            <caption>Tabela de conversão de medidas</caption>
+            <thead>
+                <tr>
+                    <th scope="col">Medida</td>
+                    <th scope="col">Em ml</td>
+                    <th scope="col">Qtd. de Farinha</td>
+                </tr>
+            </thead>
+            <tfoot>
+                <tr>
+                    <td>Soma</td>
+                    <td>510</td>
+                    <td>340,5</td>
+                </tr>
+                <tr>
+                    <td colspan="3">Custo total da receita: R$15,90</td>
+                </tr>
+            </tfoot>
+            <tbody>
+                <tr>
+                    <td>1 xícara</td>
+                    <td>240</td>
+                    <td>160g</td>
+                </tr>
+                <tr>
+                    <td>1 copo americano</td>
+                    <td>250</td>
+                    <td>167g</td>
+                </tr>
+                <tr>
+                    <td>1 colher de sopa</td>
+                    <td>15</td>
+                    <td>10g</td>
+                </tr>
+                <tr>
+                    <td>1 colher de chá</td>
+                    <td>5</td>
+                    <td>3,5g</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section>
+        <h2>Mesclagem de células</h2>
+        <table border="1">
+            <tbody>
+                <tr>
+                    <td>A</td>
+                    <td colspan="2">BC</td>
+                </tr>
+                <tr>
+                    <td colspan="3">DEF</td>
+                </tr>
+                <tr>
+                    <td>G</td>
+                    <td>H</td>
+                    <td rowspan="2">IL</td>
+                </tr>
+                <tr>
+                   <td>J</td> 
+                   <td>K</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+</body>
+</html>
